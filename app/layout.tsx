@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     title: "Lorenzo Granjon - Comédien",
     description: "Portfolio de Lorenzo Granjon, comédien professionnel",
     type: "website",
+    locale: "fr_FR",
   },
 };
 
