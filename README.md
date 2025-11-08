@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio Lorenzo Granjon 🎭
 
-## Getting Started
+Portfolio professionnel de Lorenzo Granjon, comédien.
 
-First, run the development server:
+## 🎯 À propos
+
+Site web moderne et élégant présentant les expériences professionnelles, compétences et galerie de Lorenzo Granjon, comédien professionnel.
+
+## 🚀 Technologies
+
+- **Next.js 16** - Framework React
+- **TypeScript** - Typage statique
+- **Tailwind CSS** - Styling moderne
+- **Vercel** - Hébergement et déploiement
+
+## 📦 Installation & Lancement
 
 ```bash
+# Installer les dépendances
+npm install
+
+# Lancer le serveur de développement
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build pour la production
+npm run build
+
+# Lancer en production
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Le site sera accessible sur [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🎨 Personnalisation
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Couleurs
+Le thème est basé sur le violet du CV (#6B46C1). Modifiable dans `app/globals.css`.
 
-## Learn More
+### Photos
+Remplacer les placeholders dans les composants :
+- `app/components/Hero.tsx` - Photo de profil
+- `app/components/Gallery.tsx` - Photos professionnelles
 
-To learn more about Next.js, take a look at the following resources:
+### Contenu
+Les données sont directement dans les composants pour faciliter la modification :
+- `app/components/Hero.tsx` - Section d'accueil
+- `app/components/About.tsx` - Profil, langues et talents
+- `app/components/Experiences.tsx` - Expériences professionnelles
+- `app/components/Gallery.tsx` - Photos et showreel
+- `app/components/Contact.tsx` - Formulaire de contact
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🌐 Déploiement sur Vercel
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Option 1 : Via l'interface web
+1. Pusher le code sur GitHub
+2. Connecter le repository sur [Vercel](https://vercel.com)
+3. Vercel détectera automatiquement Next.js et déploiera le site
 
-## Deploy on Vercel
+### Option 2 : Via CLI
+```bash
+npm i -g vercel
+vercel
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📧 Contact
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Lorenzo Granjon - lorenzo.granjon@hotmail.com
+
+---
+
+Développé avec ❤️ pour Lorenzo Granjon
